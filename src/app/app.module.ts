@@ -9,12 +9,12 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { TodosComponent } from './todos/todos.component';
 import { FooterComponent } from './footer/footer.component';
-/*
+
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { HttpClient } from '@angular/common/http/src/client';
 import { HttpClientModule } from '@angular/common/http';
-*/
+
 
 @NgModule({
   declarations: [
@@ -28,9 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    /*FormsModule,
+    FormsModule,
     HttpModule,
-    HttpClientModule,*/
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
