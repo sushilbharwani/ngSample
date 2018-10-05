@@ -9,4 +9,8 @@ export class AppPage {
     return element(by.css('app-root h1')).getText();
   }
 
+  getAllLinks() {
+    return element.all(by.css('li a')).getText();
+  }
+
 }

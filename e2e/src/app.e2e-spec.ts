@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('workspace-project App', () => {
+describe('Testing Home Page', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -10,6 +10,11 @@ describe('workspace-project App', () => {
   it('should display welcome message', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Welcome to Class');
+  });
+
+  it('Thee Items in Navigation', () => {
+    page.navigateTo();
+    expect(page.getAllLinks()).toEqual(['Home', 'My Todos', 'About']);
   });
 
 });
